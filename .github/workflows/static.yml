@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project V</title>
+  <style>
+    body {
+      background-color: black;
+      color: #D8BFD8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1em;
+      color: black;
+      background-color: #D8BFD8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c6a7c7;
+    }
+  </style>
+</head>
+<body>
+  <h1>Project V</h1>
+  <button onclick="window.location.href='https://yourchatlink.com'">Go to Chat</button>
+</body>
+</html>
